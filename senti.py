@@ -10,7 +10,7 @@ except Exception as e:
     st.stop()
 
 # Streamlit title
-st.title("Movie Review Sentiment Analysis")
+st.title("Sentiment Analysis")
 
 # Input box for custom review
 review = st.text_area("Enter your movie review:")
